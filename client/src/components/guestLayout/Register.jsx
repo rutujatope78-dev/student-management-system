@@ -37,7 +37,7 @@ const Register = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/users/register",
+        "http://https://student-management-system-zdxk.onrender.com/api/users/register",
         formData
       );
 
